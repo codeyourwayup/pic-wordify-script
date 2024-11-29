@@ -15,7 +15,7 @@ function runPicWordify() {
   }
   
   function getDomainId() {
-    const script = document.querySelector('script[src*="https://cdn/script.js"]');
+    const script = document.querySelector('script[src*="https://cdn.jsdelivr.net/gh/codeyourwayup/pic-wordify-script@main/script-prd.js"]');
     return script ? script.getAttribute('data-domain-id') : null;
   }
   
